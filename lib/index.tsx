@@ -1,1 +1,1 @@
-console.log('Hello World23')
+console.log('Hello World23');alert(1)
