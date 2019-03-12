@@ -1,0 +1,20 @@
+{
+  "name": "react-ts-dev-config",
+  "version": "1.0.0",
+  "description": "关于react ts开发的webpack配置",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wpsumsun/react-ts-dev-config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wpsumsun/react-ts-dev-config/issues"
+  },
+  "homepage": "https://github.com/wpsumsun/react-ts-dev-config#readme"
+}
