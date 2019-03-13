@@ -1,4 +1,5 @@
 import React from 'react'
-import ReactDom from 'react-dom'
+import ReactDOM from 'react-dom'
+import Button from './button'
 
-console.log(React, ReactDom)
+ReactDOM.render(<Button></Button>, document.body)

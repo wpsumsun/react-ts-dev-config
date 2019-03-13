@@ -6,6 +6,9 @@ module.exports = {
   entry: {
     vincent: './lib/index.tsx'
   },
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.jsx']
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     library: 'vincent',
