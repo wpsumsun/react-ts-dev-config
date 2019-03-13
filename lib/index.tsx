@@ -1,1 +1,4 @@
-console.log('Hello World23');alert(1)
+import React from 'react'
+import ReactDom from 'react-dom'
+
+console.log(React, ReactDom)
