@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/wpsumsun/react-ts-dev-config#readme",
   "devDependencies": {
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.2",
     "awesome-typescript-loader": "^5.2.1",
     "html-webpack-plugin": "^3.2.0",
     "typescript": "^3.3.3333",
@@ -28,8 +30,6 @@
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
-    "@types/react": "^16.8.8",
-    "@types/react-dom": "^16.8.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   }
