@@ -3,13 +3,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: {
-    vincent: './lib/index.tsx'
+    index: './lib/index.tsx'
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx']
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'dist/lib'),
     library: 'vincent',
     libraryTarget: 'umd'
   },
