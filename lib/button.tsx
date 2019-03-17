@@ -2,9 +2,10 @@ import React from 'react'
 
 function Button() {
   return (
-    <div>
-      Button
-    </div>
+    React.createElement('div', null, 'hhh')
+    // <div>
+    //   Button
+    // </div>
   )
 }
 
