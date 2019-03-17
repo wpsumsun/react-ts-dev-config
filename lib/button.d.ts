@@ -1,3 +1,3 @@
-import React from 'react';
-declare function Button(): React.DetailedReactHTMLElement<React.HTMLAttributes<HTMLElement>, HTMLElement>;
+/// <reference types="react" />
+declare function Button(): JSX.Element;
 export default Button;

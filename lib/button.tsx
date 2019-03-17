@@ -2,11 +2,9 @@ import React from 'react'
 
 function Button() {
   return (
-    React.createElement('div', null, 'hhh')
-    // <div>
-    //   Button
-    // </div>
+    <div>{ process.env.NODE_ENV }</div> // 语法糖 等同于 React.createElement('div', null, '按钮')
   )
+
 }
 
 export default Button
