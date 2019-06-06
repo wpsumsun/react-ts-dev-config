@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon 是个Icon 1`] = `
+<svg
+  className="guluer-icon"
+>
+  <use
+    xlinkHref="#alipay"
+  />
+</svg>
+`;
