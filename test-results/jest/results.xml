@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="8" failures="0" time="4.62">
-  <testsuite name="classnames" errors="0" failures="0" skipped="0" timestamp="2019-06-07T18:21:44" time="1.878" tests="4">
-    <testcase classname="classnames 接受0个class" name="classnames 接受0个class" time="0.006">
+<testsuites name="jest tests" tests="8" failures="0" time="4.738">
+  <testsuite name="classnames" errors="0" failures="0" skipped="0" timestamp="2019-06-08T15:44:33" time="1.846" tests="4">
+    <testcase classname="classnames 接受0个class" name="classnames 接受0个class" time="0.005">
     </testcase>
-    <testcase classname="classnames 接受一个class" name="classnames 接受一个class" time="0">
+    <testcase classname="classnames 接受一个class" name="classnames 接受一个class" time="0.001">
     </testcase>
-    <testcase classname="classnames 接受两个class" name="classnames 接受两个class" time="0.001">
+    <testcase classname="classnames 接受两个class" name="classnames 接受两个class" time="0">
     </testcase>
     <testcase classname="classnames 接受多个class" name="classnames 接受多个class" time="0">
     </testcase>
   </testsuite>
-  <testsuite name="button" errors="0" failures="0" skipped="0" timestamp="2019-06-07T18:21:44" time="1.928" tests="1">
-    <testcase classname="button 是个div" name="button 是个div" time="0.018">
+  <testsuite name="button" errors="0" failures="0" skipped="0" timestamp="2019-06-08T15:44:33" time="1.876" tests="1">
+    <testcase classname="button 是个div" name="button 是个div" time="0.017">
     </testcase>
   </testsuite>
-  <testsuite name="Icon" errors="0" failures="0" skipped="0" timestamp="2019-06-07T18:21:44" time="2.065" tests="2">
-    <testcase classname="Icon 是个Icon" name="Icon 是个Icon" time="0.02">
-    </testcase>
-    <testcase classname="Icon 触发click事件" name="Icon 触发click事件" time="0.05">
+  <testsuite name="测试用例" errors="0" failures="0" skipped="0" timestamp="2019-06-08T15:44:35" time="0.297" tests="1">
+    <testcase classname="测试用例 1+2等于3" name="测试用例 1+2等于3" time="0.001">
     </testcase>
   </testsuite>
-  <testsuite name="测试用例" errors="0" failures="0" skipped="0" timestamp="2019-06-07T18:21:45" time="0.334" tests="1">
-    <testcase classname="测试用例 1+2等于3" name="测试用例 1+2等于3" time="0.002">
+  <testsuite name="Icon" errors="0" failures="0" skipped="0" timestamp="2019-06-08T15:44:33" time="2.669" tests="2">
+    <testcase classname="Icon 是个Icon" name="Icon 是个Icon" time="0.015">
+    </testcase>
+    <testcase classname="Icon 触发click事件" name="Icon 触发click事件" time="0.047">
     </testcase>
   </testsuite>
 </testsuites>
