@@ -23,9 +23,9 @@
     "noUnusedLocals": true
   },
    "include": [
-     "lib/**/*"
-//     "types/**/*"
-//     "example.tsx",
+     "lib/**/*",
+     "example.tsx"
+     //     "types/**/*"
 //     "include/**/*",
 //     "examples/**/*",
 //     "test/**/*"
