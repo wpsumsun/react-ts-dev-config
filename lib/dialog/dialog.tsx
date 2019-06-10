@@ -52,4 +52,7 @@ const Dialog: React.FunctionComponent<Props> = (props) => {
     ReactDOM.createPortal(dialog, document.body)
   )
 }
+export function alert() {
+  
+}
 export default Dialog
