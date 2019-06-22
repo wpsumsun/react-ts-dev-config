@@ -2,9 +2,9 @@ import React, {Fragment} from 'react'
 import Button from './button'
 
 export default function () {
-  const onClick = () => {
-    alert('clicked')
-  }
+  // const onClick = () => {
+  //   alert('clicked')
+  // }
   // const onMouseEnter = () => {
   //   console.log('moused')
   // }

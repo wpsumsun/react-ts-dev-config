@@ -2,6 +2,7 @@ import React, {Fragment, ReactElement, ReactNode} from 'react'
 import ReactDOM from 'react-dom'
 import {completeClass} from '../utils/index'
 import Icon from '../icon/icon'
+import Button from '../button/button'
 import './dialog.scss'
 
 const completeClassByPrefix = completeClass('ying-dialog')
@@ -44,8 +45,8 @@ const Dialog: React.FunctionComponent<Props> = (props) => {
             props.footer ?
             props.footer.map((button) => React.cloneElement(button)) :
             <Fragment>
-              <button onClick={ handleOk }>{props.okText ? props.okText : '确定'}</button>
-              <button onClick={ handleCancel }>{props.cancelText ? props.cancelText : '取消'}</button>
+              <Button type='primary' onClick={ handleOk }>{props.okText ? props.okText : '确定'}</Button>
+              <Button onClick={ handleCancel }>{props.cancelText ? props.cancelText : '取消'}</Button>
             </Fragment>
           }
         </footer>
@@ -141,7 +142,7 @@ export const alert = (props: ModelProps) => {
     onOk={ handleOk }
     onCancel={ handleCancel }
     footer={
-      [ <button key="ok" onClick={onClose}>确认</button> ]
+      [ <Button key="ok" onClick={onClose}>确认</Button> ]
     }
     visible={true}
   />
