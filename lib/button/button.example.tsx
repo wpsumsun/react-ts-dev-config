@@ -2,9 +2,9 @@ import React, {Fragment} from 'react'
 import Button from './button'
 
 export default function () {
-  // const onClick = () => {
-  //   alert('clicked')
-  // }
+  const onClick = () => {
+    alert('clicked')
+  }
   // const onMouseEnter = () => {
   //   console.log('moused')
   // }
@@ -16,6 +16,7 @@ export default function () {
       <Button type='danger'>Danger</Button>
       <Button type='link'>Link</Button>
       <Button icon='loading' type='primary'>Primary</Button>
+      <Button disabled type='primary'>Disabled</Button>
     </Fragment>
   )
 }
