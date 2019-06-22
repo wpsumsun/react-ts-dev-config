@@ -1,0 +1,54 @@
+$theme-color: #1890ff;
+$light-blue: #40a9ff;
+$border-gray: #d9d9d9;
+$danger-color: #f5222d;
+$gray-bg: #f5f5f5;
+$font-black: rgba(0,0,0,0.65);
+.ying-button {
+  padding: 6px 15px;
+  border: 1px solid $border-gray;
+  border-radius: 4px;
+  color: $font-black;
+  transition: all .3s;
+  &+& {
+    margin-left: 12px;
+  }
+  &.ying-button-default {
+    &:hover {
+      border-color: $theme-color;
+      color: $theme-color;
+    }
+  }
+  &.ying-button-primary {
+    background: $theme-color;
+    color: #fff;
+    &:hover {
+      border-color: $light-blue;
+      background: $light-blue;
+    }
+  }
+  &.ying-button-dashed {
+    border-style: dashed;
+    &:hover {
+      border-color: $theme-color;
+      color: $theme-color;
+    }
+  }
+  &.ying-button-danger {
+    background: $border-gray;
+    border-color: $border-gray;
+    background: $gray-bg;
+    &:hover {
+      background: $danger-color;
+      color: #fff;
+    }
+  }
+  &.ying-button-link {
+    background: transparent;
+    border: none;
+    color: $theme-color;
+    &:hover {
+      color: $light-blue;
+    }
+  }
+}
