@@ -2,4 +2,15 @@
   width: 1em;
   height: 1em;
   fill: currentColor;
+  &-loading {
+    animation: spin linear 1.5s infinite;
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

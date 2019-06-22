@@ -15,7 +15,7 @@ const Icon: React.FunctionComponent<IconProps> =
     }) => {
     return (
       <svg
-        className={ classnames(['guluer-icon', className]) }
+        className={ classnames(['guluer-icon', className, name === 'loading' ? 'guluer-icon-loading' : '']) }
         { ...restProps }
       >
         <use xlinkHref={ `#${name}` }/>
